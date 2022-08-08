@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+ <div id="bigContainer" class="animate__animated">
+    <div id="firstContainer" class="animate__animated">
+        <audio
+        controls
+        src="./img/pokeballOpening.mp3">
+    </audio>
+    <div class="redpart"><div id="reflect"></div></div>
+    <div id="btnPokeBall">
+        <div id="firstContainer__btn">
+            <div class="round"></div>
+        </div></div>
+    </div>
+
+    <div class="container hidden animate__animated">
+        <div id="pokemonName"></div>
+        <div class="results">
+            <div id="NumberShiny">
+            <div id="boxNumber"></div>
+            <button id="searchBtn__shiny">
+               
+            </button>
+        </div>
+            <div id="screenResult">
+                <div class="bubbles">                
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+            </div>
+            <div id="imgPokemon" class="animate__animated" ></div>
+            <div class="bubbles_line">
+                <span class="bubble" id="singleBubble"></span>
+                <div id="linesBox">
+                <span class="lines" ></span>
+                <span class="lines" ></span>
+                <span class="lines" ></span>
+            </div>
+            </div>
+
+            </div>
+                <div id="types">
+                <div class="type" id="types__one"></div>
+                <div class="type" id="types__two"></div>
+                <button id="searchBtn__random">
+               
+                </button>
+            </div>
+        </div>
+            <div id="searchBar">
+                <form id="SearchForm" action="">
+                <input type="text" name="id" placeholder="Name or Pokemon N°" id="searchBar_input">
+                <button type="submit" id="pokeballBtn"></button>
+            </form>
+            </div>
+
+            <div id="btnsCross">
+                <div id="searchBtnBox">
+                    <button class="searchBtn" id="Evolutions">Evolution</button>
+                    <button class="searchBtn" id="Abilities">Abilities</button>
+                    <button class="searchBtn" id="Locations">Generation</button>
+                    <button class="searchBtn" id="Stats">Stats</button>
+                    
+                </div>
+                <div id="cross">
+                    <button class="cross__btn" id="cross__top"></button>
+                    <div class="cross__btn--RightLeft">
+                    <button class="cross__btn--RL" id="cross__right"></button>
+                    <button class="cross__btn--RL" id="cross__down"></button></div>
+                    <button class="cross__btn" id="cross__left"></button>
+                    <div class="cross__center"></div>
+                 </div>
+            </div>
+    
+        </div>
+</div>
+<footer>
+    <p>CopyRights : PokeAPI & The Pokemon Compagny</p>
+</footer>
+<script src="./script.js">
+</script>
+</body>
+</html>
