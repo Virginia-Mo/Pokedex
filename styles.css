@@ -11,7 +11,9 @@
     border: solid 1px black;
     box-shadow: 0.1rem 0.1rem 1rem 0.6rem black;
 }
-
+#bigContainer {
+    margin: -4.5rem auto;
+}
 body {
     margin: auto;
     font-family: 'Press Start 2P', cursive;
