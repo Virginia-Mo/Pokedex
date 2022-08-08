@@ -51,7 +51,7 @@ welcomeAnimation() {
 },
 playAudio(){
     const audio = document.querySelector("audio");
-    audio.volume = 0.1;
+    audio.volume = 0.05;
     audio.play()
 },
 hidden() {
